@@ -1,0 +1,20 @@
+<MyGrid>
+
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text:"dupa"
+
+
+        Button:
+            text:"Start"
+            on_press: root.start()
+
+        Button:
+            text:"Koniec"
+            on_press: root.end()
