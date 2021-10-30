@@ -21,7 +21,6 @@ class MyGrid(Widget ):
         datetime.date.today()
 
 
-
 class MyApp(App):
     def build(self):
         return MyGrid()
